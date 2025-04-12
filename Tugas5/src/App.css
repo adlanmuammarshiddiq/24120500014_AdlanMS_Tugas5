@@ -1,0 +1,11 @@
+.app {
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.app.dark {
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+}
