@@ -46,13 +46,13 @@
 }
 
 .pokemon-card {
-  background-color: #fff; /* hitam */
-  color: #000; /* putih */
+  background: #F0F3FF;
+  color: #000; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
-  border-radius: 12px;
+  padding: 24px;
+  border-radius: 8px;
   transition: transform 0.2s;
 }
 
@@ -61,13 +61,14 @@
 }
 
 .pokemon-image {
-  width: 120px;
-  height: 120px;
+  padding: 12px;
+  width: 140px;
+  height: 140px;
 }
 
 .pokemon-card.list-view .pokemon-image {
-  width: 240px;
-  height: 240px;
+  width: 280px;
+  height: 280px;
   margin-bottom: 0;
 }
 
@@ -81,9 +82,9 @@
 }
 
 .pokemon-name {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 4px 0;
+  margin: 6px 0;
 }
 
 .pokemon-types {

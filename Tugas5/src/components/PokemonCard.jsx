@@ -64,7 +64,8 @@ const PokemonCard = ({ pokemon, listView = false, detailView = false }) => {
         <div className="health-text">
           <span className="health-value">{health}</span> from {maxHealth}
         </div>
-  
+        <tr></tr>
+        <hr></hr>
         <div className="atk-def">
           <div className="stat-block">
             <div className="stat-title">Attack</div>
